@@ -1,0 +1,21 @@
+{
+  "name": "ui_7_training",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Peter <peter.petrekanics@liferay.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}

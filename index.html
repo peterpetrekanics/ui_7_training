@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>UI 7 Training</title>
+	<link rel="stylesheet" href="build/css/main.css" />
+	<script src="bower_components/jquery/dist/jquery.js"> </script>
+<head>
+<body>
+	<div class="wrapper">
+		<button class="btn">Change Design</button>
+	</div>
+	<script>
+	$('.btn').on('click', function(event) {
+		var button = $(event.currentTarget);
+
+		button.toggleClass('btn-training');
+	});
+</script>
+</body>
+<html>
