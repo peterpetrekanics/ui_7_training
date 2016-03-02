@@ -1,0 +1,20 @@
+/**
+* Lexicon 0.2.8
+*
+* Copyright 2016, Liferay, Inc.
+* All rights reserved.
+* MIT license
+*/
+// INSERT CUSTOM VARS
+
+@import "lexicon-base/main";
+
+// INSERT CUSTOM EXTENSIONS
+
+$btn-training-height: 50px;
+$btn-training-width: 200px;
+
+.btn-training {
+	height: $btn-training-height;
+	width: $btn-training-width;
+}

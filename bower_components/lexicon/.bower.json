@@ -1,0 +1,49 @@
+{
+  "name": "lexicon",
+  "main": "release/scss/atlas.scss",
+  "homepage": "https://liferay.github.io/lexicon",
+  "authors": [
+    "Nate Cavanaugh",
+    "Patrick Yeo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/*",
+    "!release/**/*",
+    "!package.json",
+    "!CHANGELOG.md",
+    "!README.md"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "svg4everybody": "~2.0.0"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "*/**/_bootstrap.scss",
+        "*/**/bootstrap/*.scss"
+      ],
+      "normalize": {
+        "js": "*/**/*.js",
+        "css": [
+          "*/**/*.css"
+        ],
+        "scss": [
+          "*/**/*.scss"
+        ]
+      }
+    }
+  },
+  "version": "0.2.9",
+  "_release": "0.2.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.9",
+    "commit": "dfc0107aecc4b27a43d22dca238030f1a59bcb42"
+  },
+  "_source": "git://github.com/liferay/lexicon.git",
+  "_target": "^0.2.9",
+  "_originalSource": "lexicon",
+  "_direct": true
+}
